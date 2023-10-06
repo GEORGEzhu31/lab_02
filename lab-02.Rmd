@@ -7,16 +7,15 @@ output: html_document
 
 ### Load packages and data
 
-```{r load-packages, message = FALSE, warning=FALSE}
+```{r load-packages, message = FALSE, warning=FALSE}read_csv()
 library(tidyverse)
 library(readxl)
 ```
 
-
 ## Load & join data sets
 
 ```{r load-data, message = FALSE}
-# Member 1 write code to load File 1 data here:
+# Member 1 write code to load File 1 data here: <- read_csv("data/mismanaged-plastic-waste-per-capita.csv")
 
 
 
@@ -37,7 +36,7 @@ library(readxl)
 
 
 ```{r join-data, message = FALSE}
-# Member 1 write code to create object 'plastic_data_all':
+# Member 1 write code to create object 'plastic_data_all':plastic_data_all <- data1
 
 
 
@@ -57,8 +56,7 @@ library(readxl)
 
 
 ```{r print-data, message = FALSE}
-# Member 1 adds code here to view the first 10 rows of 'plastic_data_all'
-
+# Member 1 adds code here to view the first 10 rows of 'plastic_data_all'%>% head(n = 10)
 
 
 ```
