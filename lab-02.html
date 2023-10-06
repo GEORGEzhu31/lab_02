@@ -9,7 +9,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
-<meta name="author" content="Team Name: George Zhu, yifu li, User3 and User4" />
+<meta name="author" content="Team Name: George Zhu, yifu li, Wanfang Zhen,Yunrui Lyu and Jiayi Wan" />
 
 <meta name="date" content="2023-10-06" />
 
@@ -351,7 +351,8 @@ display: none;
 
 
 <h1 class="title toc-ignore">Lab 02 - Global plastic waste</h1>
-<h4 class="author">Team Name: George Zhu, yifu li, User3 and User4</h4>
+<h4 class="author">Team Name: George Zhu, yifu li, Wanfang Zhen,Yunrui
+Lyu and Jiayi Wan</h4>
 <h4 class="date">2023-10-06</h4>
 
 </div>
@@ -359,12 +360,11 @@ display: none;
 
 <div id="load-packages-and-data" class="section level3">
 <h3>Load packages and data</h3>
-<pre class="r"><code>library(tidyverse)
-library(readxl)</code></pre>
+<p><code>{r load-packages, message = FALSE, warning=FALSE}read_csv() library(tidyverse) library(readxl)</code></p>
 </div>
 <div id="load-join-data-sets" class="section level2">
 <h2>Load &amp; join data sets</h2>
-<pre class="r"><code># Member 1 write code to load File 1 data here:
+<pre class="r"><code># Member 1 write code to load File 1 data here: &lt;- read_csv(&quot;data/mismanaged-plastic-waste-per-capita.csv&quot;)
 
 
 
@@ -377,7 +377,7 @@ library(readxl)</code></pre>
 
 
 # Member 4 write code to load File 4 data here:</code></pre>
-<pre class="r"><code># Member 1 write code to create object &#39;plastic_data_all&#39;:
+<pre class="r"><code># Member 1 write code to create object &#39;plastic_data_all&#39;:plastic_data_all &lt;- data1
 
 
 
@@ -390,7 +390,7 @@ library(readxl)</code></pre>
 
 
 # Member 4 write code to join your data to &#39;plastic_data_all&#39;:</code></pre>
-<pre class="r"><code># Member 1 adds code here to view the first 10 rows of &#39;plastic_data_all&#39;</code></pre>
+<pre class="r"><code># Member 1 adds code here to view the first 10 rows of &#39;plastic_data_all&#39;%&gt;% head(n = 10)</code></pre>
 </div>
 <div id="exercises" class="section level2">
 <h2>Exercises</h2>
