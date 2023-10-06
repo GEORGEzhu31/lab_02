@@ -7,7 +7,7 @@ output: html_document
 
 ### Load packages and data
 
-```{r load-packages, message = FALSE, warning=FALSE}read_csv()
+```{r load-packages, message = FALSE, warning=FALSE}
 library(tidyverse)
 library(readxl)
 ```
@@ -15,7 +15,8 @@ library(readxl)
 ## Load & join data sets
 
 ```{r load-data, message = FALSE}
-# Member 1 write code to load File 1 data here: <- read_csv("data/mismanaged-plastic-waste-per-capita.csv")
+# Member 1 write code to load File 1 data here: 
+data1 <- read_csv("data/mismanaged-plastic-waste-per-capita.csv")
 
 
 
