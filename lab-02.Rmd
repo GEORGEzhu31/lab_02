@@ -1,6 +1,6 @@
 ---
 title: "Lab 02 - Global plastic waste"
-author: "Team Name: George Zhu, yifu li, Wanfang Zhen,Yunrui Lyu and Jiayi Wan"
+author: "Team Name: George Zhu, yifu li, Wanfang Zhen,Jiayi Wan and Yunrui Lyu "
 date: "`r Sys.Date()`"
 output: html_document
 ---
@@ -28,7 +28,7 @@ library(readxl)
 
 
 
-# Member 4 write code to load File 4 data here:
+https://github.com/GEORGEzhu31/lab_02
 
 
 
